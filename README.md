@@ -486,8 +486,8 @@ Completed version of OrionImageViewer can be downloaded [here](https://github.co
 It is recommended to get familiar with the [wiki](https://github.com/FinweLtd/OrionSDK_iOS_Prd/wiki) pages and API documentation that is included in the SDK to learn more about the available features and how they should be used.
 
 Take a look at the delivered sample apps to get more familier with our SDK. Sample projects are done using Objective-C and Swift. 
-	Objective-C: [https://github.com/FinweLtd/Orion\_SDK\_iOS_SampleApps](https://github.com/FinweLtd/Orion_SDK_iOS_SampleApps) , 
-	Swift: https://github.com/FinweLtd/orion360-sdk-basic-examples-ios
+Objective-C: [https://github.com/FinweLtd/Orion\_SDK\_iOS_SampleApps](https://github.com/FinweLtd/Orion_SDK_iOS_SampleApps), 
+Swift: https://github.com/FinweLtd/orion360-sdk-basic-examples-ios
 
 Import the project to your workspace, build and run it on your device. Then look at the source code.
 
