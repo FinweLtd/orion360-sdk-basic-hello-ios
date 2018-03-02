@@ -1,0 +1,23 @@
+# This file contains the list of applications
+# for which this Orion360 license is valid
+# Please do not modify this file in any way
+
+packagename=finwe.OrionImageViewer123
+logo=finwe
+platform = ios
+version = 3.0
+enableFeatureExplicit = video360 \
+image360 \
+sprite \
+barrel_distortion
+expirationDate =
+
+issueDate = 2018-02-28 10:58:01 +0000
+
+=========================== BEGIN-SIGNATURE-V3.37 ===========================
+G+RG0hj19PR3+RB9vZZUxvhBRcuekr2Yrj4yqVFzPQRxjFOG5IkH/hUbYZUL8W0pmFsgjgvBRsKo
++5XWb3NNOOepeI1+QbS7hywgc420NVqDTrFco0yh+bzs/gV9/C8WXzT7STDsX5EPzUj8DFFHuO05
+Njb2JQR1wLqZkoKAqOWOdsQ6KuBxm0zf019lXKp1U/3CpiED7NjEN4kFC6q+6ibCahZQSXHwmKpa
+RJsjci34TO3mwCl3JcmWZEiJXpXDoHWE5e7k64Ni16rJOKQZ4ZvLvrEM4cCO+fQM7R51xOxroIfS
+0xMslWeoU+BtPvaFr31Eh9bEKll2vfZFjt/7pQ==
+============================= END-SIGNATURE-V3.37 ===========================

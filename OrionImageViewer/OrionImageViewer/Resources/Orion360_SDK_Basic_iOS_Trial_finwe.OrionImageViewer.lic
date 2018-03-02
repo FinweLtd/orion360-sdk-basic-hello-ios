@@ -1,0 +1,15 @@
+# This file contains the list of applications
+# for which this Orion360 license is valid
+# Please do not modify this file in any way
+packagename=finwe.OrionImageViewer
+logo=finwe
+enableFeatureExplicit=tags,screenshots,viewport_split
+platform=ios
+version=Orion1
+========== BEGIN-SIGNATURE-V1 ==========
+Z12OnzTNj4LHmVidXdQxHQ1HZ4OI0+/Oi0zMENFNiWBKusLol2Cxjv4vbB9B8/V5SDwWr82xWE1b
+J16lac8ghg+i4sTSPNWVhcDqYMPaeQ37P3bX9r4esY2NukXreEtsMH9NXrwOOqTJyqXYszntHVD1
+juVe6WVi1GRgSJzGudhi2/NiJoLh/izCB4LJMeHxtVxwl3UQl5ogneDDCBdQG/WSW325ah5lyNGF
+fHdzS6G0Xw/FeGpy2zrAZCpxJf6KuwXrTY2lf9AKThse9pNhBIbrnPyyVNXnLDdiCgNLaUKOyawy
++t1ECOt+rneMZZgmYaH6equ5zxAYLQ63VgGCNQ==
+=========== END-SIGNATURE-V1 ===========
