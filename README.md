@@ -479,7 +479,7 @@ The Scheme pop-up menu lets you choose which simulator or device you’d like to
 
 Figure 27. Xcode’s toolbar
 
-Save the changes and click the Run button <img width="20" alt="screen shot 2018-02-27 at 14 45 45" src="https://user-images.githubusercontent.com/36510685/36899661-c9c139ba-1e28-11e8-88bc-fe104efb3747.png"> to build and run OrionImageViewer and you are able to see a beautiful picture from Lapland Finland. Feel free to play around with the image by zooming, panning and rotating. Explore Finnish winter and beautiful landscape in one picture :)
+Save the changes and click the Run button <img width="20" alt="screen shot 2018-02-27 at 14 45 45" src="https://user-images.githubusercontent.com/36510685/36899661-c9c139ba-1e28-11e8-88bc-fe104efb3747.png"> or press ![screen shot 2018-02-27 at 16 23 48](https://user-images.githubusercontent.com/36510685/36899715-07afe5aa-1e29-11e8-9a03-17ecb10b8797.png) to build and run OrionImageViewer and you are able to see a beautiful picture from Lapland Finland. Feel free to play around with the image by zooming, panning and rotating. Explore Finnish winter and beautiful landscape in one picture :)
 
 ![screen shot 2018-02-27 at 14 51 34](https://user-images.githubusercontent.com/36510685/36899622-a0909612-1e28-11e8-85b2-3061da9df135.png)
 
