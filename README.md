@@ -3,6 +3,7 @@ Repository for Orion360 SDK Basic for iOS, Hello
 
 # Examples for Orion360 SDK (Basic) for iOS
 ![3fda62e0-79e6-11e6-9f00-15bb10c29dd3](https://user-images.githubusercontent.com/36510685/36898354-379b03e0-1e23-11e8-8876-50a71b2043f5.png)
+
 This repository contains a simple 360° image viewer iOS application written in Swift.
 
 Features:
@@ -156,10 +157,7 @@ Click Next. In the dialog that appears, select a location to save your project a
 
 Xcode opens your new project in the workspace window (See Figure 5).
 
--   ![](https://lh4.googleusercontent.com/fcNXCDV4eI5DnIJqFa05gMvwy1UaCWX1jpzo_Ta1OSD7gscmRL0fzvx6OtG-PEjQFOVuszarSDVaO3yjHmCbmYHDISzVfGcG--V-YXpvb77CjT06iOX4ZGjGoUnsfVai8oalyr3M)
-    
--     
-    
+![screen shot 2018-02-27 at 13 45 01](https://user-images.githubusercontent.com/36510685/36898619-4d6bfdfe-1e24-11e8-8819-32227961a1e5.png)
 
 Figure 5. OrionImageViewer’s project workspace
 
@@ -179,7 +177,7 @@ Type pod init and press Return key to create empty pod file for your project dir
 
 After running pod init Podfile is added to your project directory.
 
-![](https://lh6.googleusercontent.com/qoHpIQ3p-3SPyCD-gnjsdj7OnEEzC8D0LlUdWTgycavalj6bkZvBzmjEXlQxUB3FTCmLJP77VRHCDGWKrGRQfkS4gRl0sy-FmVPRdm2kKLdq9UvfeTJB35xMgG4vie91SrRmX9gI)
+![screen shot 2018-03-01 at 10 29 37](https://user-images.githubusercontent.com/36510685/36898656-6d34b086-1e24-11e8-9b5a-e1934be8c48e.png)
 
 Figure 6. OrionImageViewer’s directory after pod init
 
@@ -191,7 +189,8 @@ Type the following command on the terminal to open Podfile in edit mode.
 
 After opening the Podfile, you Podfile contents will look like Figure 7
 
-![](https://lh5.googleusercontent.com/N69deL_RUoXdwC32CA-LRquZ6y-FiC2IDSfN5l83I5M7Gi8rdK8Y5RMUmD4lMc2whS4BAjLM463Txw_puOIbzvtjRieZ_6g4CVbwAXwtC-GTTL_PD76VVB2cFfQnDnnB3C832yT0)
+![screen shot 2018-02-21 at 11 00 17](https://user-images.githubusercontent.com/36510685/36898838-311de012-1e25-11e8-8292-5c92e198068e.png)
+
 
 Figure 7. Podfile content before being edited
 
@@ -218,7 +217,7 @@ After saving the updates you made on Podfile, go to terminal and type the follow
 
 After few minutes you will see a log something like Figure 8 on your terminal.
 
-![](https://lh3.googleusercontent.com/CCo9K1PYVYOLGJpaxqh_vC_9xQ6nMQPoM-bW-w7fvWsZb8958I5O8uxGPLkthZKGRrKe1LHRDKuPC3cj2JIxkIn9hBGagHwHHqjKonDMivFQ9JcDOXCeDz_lJzJKRJn-ITnhjAFt)
+![screen shot 2018-02-28 at 9 35 09](https://user-images.githubusercontent.com/36510685/36898894-6db44732-1e25-11e8-8176-8d162a25b470.png)
 
 Figure 8. Orion360 SDK installation completed
 
@@ -226,7 +225,7 @@ If you see message “Pod installation complete!”, you are ready to add our Or
 
 Open project directory and you will see OrionImageViewer.xcworkspace added (see Figure 9)
 
-![](https://lh4.googleusercontent.com/aM6eeN_a5fLxScgz2YhXz7UAY51Uh9XYsoIrIXM5BnYW2xwysuckqoBq_F1VSlD6GIg9VPSlIkAw6Yzw0TQURC5hYbq9F7bp0Dc3H1RlSeXVU8XWeQoPqalvSIdh01FjfPQ925WP)
+![screen shot 2018-02-21 at 11 21 07](https://user-images.githubusercontent.com/36510685/36898935-9af0bab4-1e25-11e8-8ebf-346cec8f4142.png)
 
 Figure 9. Project directory’s content after successful pod installation.
 
@@ -238,7 +237,7 @@ After successful pod installation, on the terminal you will see:
 
 Close opened Xcode project and open `OrionImageViewer.xcworkspace`. From here on you should work on `OrionImageViewer.xcworkspace’.
 
-![](https://lh6.googleusercontent.com/oBEZcDVaAwHDXCC9ZEzsSQs_MfFpkVBNFeDl4pKmn3sPrMhe97MZdkM9LtK9M85V_PDGAbbZNmDdv87aljsqTk52hULc1nVmwWVXxp-K7tBKVpO4Q7p-QsoscQJ_K2iAHxyFCvTW)
+![screen shot 2018-02-21 at 11 27 01](https://user-images.githubusercontent.com/36510685/36898955-af46f8e8-1e25-11e8-9392-c7c05cdc4154.png)
 
 Figure 10. OrionImageViewer.xcworkspace.
 
@@ -250,13 +249,11 @@ Notice: Whenever there will be a new update to the Orion360 SDK, go back to Step
 
 After opening OrionImageViewer.xcworkspace you can see the SDK is successfully added to our project (see Figure 11).
 
-![](https://lh4.googleusercontent.com/Ik53YeAXdfNabB2ZFKSGoG1N1e9ua2K4GJpeyIAcqNUaGImUigTxIDUP9YpCwqLqF523ebVqsDotsvPaDmyUmr7FSsy2PF_oxlr9gXhoKyfMq2Y-8YesLD-PzS_l8Zh56o6g0kT9)
+![screen shot 2018-02-21 at 11 54 23](https://user-images.githubusercontent.com/36510685/36898976-c7d194fe-1e25-11e8-9a1d-6e29d2f78a63.png)
 
 Figure 11. OrionImageViewer’s project structure after pod install
 
-  
-
-![](https://lh4.googleusercontent.com/305sLNiPcnAmQcI4q5GTWfJ3IGKSyRAFR8hj3D-jEe36Ps2zd_EHRHEKhexBs9cFb2XWcuVyVY6rgeggqVWagw5imhbpkiM_bs0Qzaehn9F7Z0BEaqiXEt3Z-desLRv6idRbuuS1)
+  ![seq1](https://user-images.githubusercontent.com/36510685/36898999-e12501ac-1e25-11e8-93f4-5ce6eb3b9636.png)
 
 Figure 12. Sequence diagram:Orion1View
 
@@ -284,11 +281,11 @@ Create bridging header as follows:
 
 File > New > File > (iOS, watchOS, tvOS, or macOS) > Source > Objective-C File
 
-![](https://lh6.googleusercontent.com/GkGZSX-QKBn5kDJSWIgVw6V5uLcFscWjO3KKn173Xbhx28v5ljfJlLyyCCWO4xAGFNCKA0QfmlBUug2pYBRqx65DSoKtOVQ55LcEIM4kBrTKEZQRv8-T2fivvk7y0MndtaMddxwG)
+![screen shot 2018-02-21 at 12 18 24](https://user-images.githubusercontent.com/36510685/36899032-050eb91e-1e26-11e8-849f-54807ce8b3f0.png)
 
 Figure 13. Create new Objective-C file for bridging header
 
-![](https://lh5.googleusercontent.com/8VzHTNrS-cHVcAOMuY-fPOB0G78z2jpewXWF-j9v_zGoLYmmLVy9fy1dXfGX4kneobYElsxhfkaBv-PyPiWMGOfoBCVOm1sVMnhKLl57GYj3Qdqm6v09us2jHMgrE0gVgLfDibiy)
+![screen shot 2018-02-23 at 13 13 48](https://user-images.githubusercontent.com/36510685/36899090-391f8b0c-1e26-11e8-95a2-a10135d66e5f.png)
 
 Figure 14. Create new Objective-C file for bridging header
 
@@ -296,17 +293,17 @@ Give file name which is similar to your project name for this example "OrionImag
 
 If you accept, Xcode creates the header file along with the file you were creating, and names it by your product module name followed by "-Bridging-Header.h". When you press Create you will see a dialog message (see Figure 15) and click on “Create Bridging Header”
 
-![](https://lh5.googleusercontent.com/vYFF5AFYNpw5bMUy5Skfo1pt3VBOQiXmjzejPdDPq8ene5JY0OcOIF8Rv6W7Qnszi3oppQHxQAyxCnP4Yp6g7lakWHtfYanJBXzO9j70rtGsj0EcxM68vpmV5XOAWNn6n6x-iJ7b)
+![screen shot 2018-02-21 at 12 23 12](https://user-images.githubusercontent.com/36510685/36899104-4bad682a-1e26-11e8-8d27-07f0701290bd.png)
 
 Figure 15. Creating bridging header
 
-![](https://lh6.googleusercontent.com/eInhcrgDErw8I7CJNQQelABs5RblPp7ra7Oh0GxFi4ULI3OYkJmDMS7B26JkveX7-80EBioWJHemFyURrZLuGaPoHREZV7oyiSQ8lUOpasqN9I4H7YNTWEVZAK_z5MEFm-_x04Rk)
+![screen shot 2018-02-28 at 10 07 02](https://user-images.githubusercontent.com/36510685/36899150-7cb02282-1e26-11e8-8355-c9a2b5b9f4f1.png)
 
 Figure 16. OrionImageViewer’s project structure after creating bridging header
 
 Now open OrionImageViewer-Bridging-Header.h and type #import "Orion1View.h" and save the file.
 
-![](https://lh6.googleusercontent.com/HXxZbwYi1Vx93uQ2U4MMChdjk4DKEKpouOLyfWm7i3Zm3mo_kZMqou157v9pa5iEnCfcu7qszIvhDrB4D71lMCAD0-y6nbl54U9VrjLCAPz3jBvVEQ9BgZBKTex3AvlHq8TfmIPr)
+![screen shot 2018-02-21 at 12 32 33](https://user-images.githubusercontent.com/36510685/36899173-99ca917c-1e26-11e8-91ca-a3691b5a2373.png)
 
 Figure 17. Importing Orion360 SDK using import statement
 
@@ -337,34 +334,32 @@ Please follow these steps to obtain License File:
 3.  After successful login click on New SKD Project button
     
 
-![](https://lh5.googleusercontent.com/bd15zYZ0jVA1vTdgc9QosFH2FAHcxSUvNZyIv_lopmYwngAzwmhGo-0HZb6fAaDdqH4L80qCL6YCib0NcIUdU99QjgoztVfFGwMlmnw9Ug0e6YJGxNvyh8uXv4sCPbVtRd9dJHDt)
+![screen shot 2018-02-21 at 12 45 40](https://user-images.githubusercontent.com/36510685/36899227-de93e2ea-1e26-11e8-9287-8e64bf32d8fa.png)
+
 
 4.  Give Project Name, and Package Identifier as they are written on Identity section
     
 
-![](https://lh4.googleusercontent.com/N9E10Vz9-AzeRWrZ5DNIQZhks-CAitHWZX57va_brimh7hr_CMpKGa7TNLSsxT8_v2Df0O2Q0PXthFcqj44qI4eAchtDZMxYxy2xSeBLDAaFay9PoAjc33KrsPEN9ViULFWUv1We)
+![screen shot 2018-02-21 at 13 12 27](https://user-images.githubusercontent.com/36510685/36899299-1a912ef6-1e27-11e8-951b-deb8e4d127be.png)
 
 Figure 18. Select your project from target
 
 Click on your project from Project Navigator > Select your target > choose General > Identify
 
-  
 
-![](https://lh4.googleusercontent.com/5UhzN21CLT-z5q--pyPXMsp7inADBUCVBCDDZwv9aSN-bzjMDDoQlUv5l2lQNb-8O2jLSOg0eNDMGKMC32DE4yp5mZtdJ8dA1vjCJcUEBEQl3DMBAJZwKmAvWkJ4rRK3eTS8pKCV)
+![screen shot 2018-02-21 at 12 56 56](https://user-images.githubusercontent.com/36510685/36899265-fc3109d6-1e26-11e8-84e7-2b7c0ff25add.png)
 
 Figure 19. Bundle Identifier = Package Identifier, Display Name = Project Name
 
 5.  Select iOS on Platforms section
     
-
-![](https://lh3.googleusercontent.com/uA7_zHBD_46aft5g3iwNQ8rixoFJUcx1OouIzSpFIgTvJD6F3K1yltzca0T47duP8MCueaTsbO7E2h4As_DkZO_TXda9G_CDHaTU2TcoS4GGSEgK5-6UBr5seaMoJtHqrMtRs3Zy)
+![screen shot 2018-02-21 at 13 17 31](https://user-images.githubusercontent.com/36510685/36899320-32454bcc-1e27-11e8-819f-1e721777f884.png)
 
 Figure 20. Target platforms
 
 6.  Choose type of license, payment method
     
-
-![](https://lh4.googleusercontent.com/wlL78UhweB0mWaH2vZuo0g1yYVIho6R2p3ZOD0Rzvfn5NDqnKIttPglaZivD8QPv0hxvBSDcCUBx687VrB7EyPgmnrwgTt35dvRPe5EtYJ1rFylEhjJqNzffgVYicd3eFNamNRUq)
+![screen shot 2018-02-21 at 13 18 33](https://user-images.githubusercontent.com/36510685/36899341-4938f1d0-1e27-11e8-9e68-ad08025de0c0.png)
 
 Figure 21. Payment method
 
@@ -381,13 +376,13 @@ Figure 22. Orion360 SDK’s EULA
 
 Once again click Accept to Terms & Conditions
 
-![](https://lh3.googleusercontent.com/OZTY_vcvIevOkp92xTaLNt68r6QnD0ai4n2OAYKHIZF-wixsYoh5DqLLt8lhbI4ODmvb9Sz_7PEeHePhy44knPCE6YuKQLxpzlJA4CrPEjLgd261R93ujPYhSYOX7h2Je44hAemw)
+![screen shot 2018-02-21 at 13 21 59](https://user-images.githubusercontent.com/36510685/36899356-64a7e502-1e27-11e8-81e1-e876d8b1e129.png)
 
 Figure 23. Orion360 SDK’s Terms & Conditions
 
 After accepting both terms, you will get a notification which says “Your new licenses are ready to be downloaded. Scroll down to the Downloads section to get them.”
 
-![](https://lh6.googleusercontent.com/uPPyC-jcOS5863nEAjse43pqHrDyicqmbPh07XKVrs0RPi1jXHRKeXhPDprANwLGHWN1KYK1CfzgONctzJjk2xNKXJuaWhmDZg-vA9WiSNxGhynik7LZn1t90RlkoaPRa0MGBv4Z)
+![screen shot 2018-02-21 at 13 24 11](https://user-images.githubusercontent.com/36510685/36899430-c97be4ec-1e27-11e8-85fb-02fbbb6054e7.png)
 
 Figure 24. Downloads for extracted license
 
@@ -399,11 +394,11 @@ Click on “Download iOS Basic Trial Licenses”.
 Extract the download file.  
 Select “Orion360\_SDK\_Basic\_iOS\_Trial_finwe.OrionImageViewer.lic“, drag the file and drop it inside Project navigator under your project folder and click Finish.
 
-![](https://lh4.googleusercontent.com/OW1jMijkLVx7PEdDQ1yFuqnc9xrd5-gEJoaIJrZ0pYWEzVkNKpWf8nKPeXfmL3GoiASkhVWoJs5wkXRsCE6TGB6dKZd9LKB2lnWpzORv7cB2ODWJmshJ3uQOGhdLbuFT4cOs2UaE)
+![screen shot 2018-02-21 at 13 33 21](https://user-images.githubusercontent.com/36510685/36899536-3477eb10-1e28-11e8-82a2-52b825a62f56.png)
 
 Figure 25. Adding license file (.lic) to project directory
 
-![](https://lh5.googleusercontent.com/AuJ5dIIij08FCDnYeF5qnptomGvPuWw5dbGKIusNYeFxziZXXYN9CB1Ln2Ya5LyVD3CodDuieAs0-OYJsQ0Y5UHdKDeKi6Swx222IxjuZRG-cmH9Ldm8QiYyA3aJuGNsc-Gx_tbH)
+![screen shot 2018-02-28 at 13 13 12](https://user-images.githubusercontent.com/36510685/36899577-60e5d112-1e28-11e8-858a-b7188b3dfc18.png)
 
 Figure 26. Project structure after license file added
 
@@ -480,19 +475,17 @@ The above example displays image from URL, if you want to show an image from a l
 
 The Scheme pop-up menu lets you choose which simulator or device you’d like to run your app on. As seen on Figure 27 iPhone 8 Plus Simulator, not an iOS device.
 
-  
-
-![](https://lh3.googleusercontent.com/kPnDkUjefxvjovwjPMI2Mi1EuLrB0w-08O_j9_cdzG-EnFkcNJfNtjNNIQaLOeehFPlGXG5WvLGBiIFWmTMr6dVVRHUDvAj48nZSRkT5c9YdyGz7kNIeelQ8duc9M2sO7P31tJIU)
+ ![screen shot 2018-02-27 at 14 41 14](https://user-images.githubusercontent.com/36510685/36899595-7d711f30-1e28-11e8-9a08-4d3779031255.png)
 
 Figure 27. Xcode’s toolbar
 
-Save the changes and click the Run button![](https://lh6.googleusercontent.com/hrH1VBPQVqD12srrVpYKvPnJO6cQh_5X_aZ_aAYk9LbAk3mpkKLRdDZ7TX1Pvbxu8spkiH4xWPsJNSwIHirPLlDdCw5FnW6ogkquo15w-r_qaVfqj45w5d33I7EbY1kRMLi1uij4), located in the top-left corner of the Xcode toolbar or press![](https://lh4.googleusercontent.com/Pk_RNpj0ji0hAmWa606P2mYsc-GYJuZTzO7STvee_rZ7ytVtcMN4V5tPkEU1LFGvImvWUj7QAlbu62d5E9TbES2_p_jJ4XaR-GqXnFFPTiMaTknjB504SCCRkadwOPnFMXoNhvN9) to build and run OrionImageViewer and you are able to see a beautiful picture from Lapland Finland. Feel free to play around with the image by zooming, panning and rotating. Explore Finnish winter and beautiful landscape in one picture :)
+Save the changes and click the Run button <img width="20" alt="screen shot 2018-02-27 at 14 45 45" src="https://user-images.githubusercontent.com/36510685/36899661-c9c139ba-1e28-11e8-88bc-fe104efb3747.png"> to build and run OrionImageViewer and you are able to see a beautiful picture from Lapland Finland. Feel free to play around with the image by zooming, panning and rotating. Explore Finnish winter and beautiful landscape in one picture :)
 
-![](https://lh4.googleusercontent.com/AADaYS81y3uYfldpnB0PS7cn4NogpykmlAuvOGOZQn-i3tIMP-uRQ_hyClfKDtJvEcfTMUoAxkx-sH8oqMLkduB-8GQUd57aPJfB4NCeIx8FgfsI92hZXwDZfek1cqHndP3VWNA0)
+![screen shot 2018-02-27 at 14 51 34](https://user-images.githubusercontent.com/36510685/36899622-a0909612-1e28-11e8-85b2-3061da9df135.png)
 
-![](https://lh4.googleusercontent.com/qvfOF8GK22iEvgAet5OwcL5C2bezx3IE61ISEONdfuBGW8ecA2crC3eX6_3-yGx6Q93efIVVupKQKFNczJrdOyg9Jjh5IxBDq8kbb8pjHancw3fcHTotIOP9N85cZ9ySLXT9ZrJ1)
+![screen shot 2018-02-27 at 15 07 31](https://user-images.githubusercontent.com/36510685/36899631-adcd124c-1e28-11e8-862b-2de929a32231.png)
 
-![](https://lh4.googleusercontent.com/iWvqLTf2PhrmmOoUdsjDC08rd0XVMEuvPnZHCkhO_0Dvf5yj6nWKvVJZZ4BGRcmxRBGjAC-K9sQGaBH0zTveTpCs7svd9Frz-BpIuNKXNSl0V7IPfZeo_tkhpf0q46QdJL25xjJZ)
+![screen shot 2018-02-27 at 15 31 10](https://user-images.githubusercontent.com/36510685/36899636-b173aba4-1e28-11e8-9a79-6296aab25424.png)
 
 Completed version of OrionImageViewer can be downloaded [here](https://github.com/teddyFinWe/orion360-sdk-basic-iOS-Swift.git).
 
