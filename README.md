@@ -494,4 +494,4 @@ Import the project to your workspace, build and run it on your device. Then look
 ## Feedback & Support
 
 
-Feedback & support should be directed via email to support@finwe.fi.
+Feedback & support should be directed via email to support@finwe.fi .
