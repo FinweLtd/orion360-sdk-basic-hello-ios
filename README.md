@@ -487,7 +487,7 @@ Save the changes and click the Run button <img width="20" alt="screen shot 2018-
 
 ![screen shot 2018-02-27 at 15 31 10](https://user-images.githubusercontent.com/36510685/36899636-b173aba4-1e28-11e8-9a79-6296aab25424.png)
 
-Completed version of OrionImageViewer can be downloaded [here](https://github.com/teddyFinWe/orion360-sdk-basic-iOS-Swift.git).
+Completed version of OrionImageViewer can be downloaded [here](https://github.com/FinweLtd/orion360-sdk-basic-hello-ios.git).
 
 ## Next Steps
 
