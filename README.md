@@ -85,11 +85,11 @@ To check if CocoaPods is already installed or not, Open terminal and type the fo
 
 	pod install ↵
 
-If CocoaPods is not installed, the following error log will be shown on terminal
+If CocoaPods is not installed, the following error log will be shown on terminal.
 
 	-bash: pod: command not found
 
-### CocoaPods installation guide:
+### CocoaPods installation guide
 
 On terminal type, the following command and press Return key.
 
@@ -98,6 +98,7 @@ On terminal type, the following command and press Return key.
 Note: Your machine might ask for your system password, type your password and press Return key. (Tip: you will not be able to see what you are typing while entering your password, make sure you press Return key after you finish entering your password). If the correct password is given CocoaPods will start the process of installation.
 
 You can read more about CocoaPods and installation guide on: [http://guides.cocoapods.org/using/getting-started.html#installation](http://guides.cocoapods.org/using/getting-started.html#installation)
+
 ## Getting started with Xcode and creating new project
 
 <img width="87" alt="screen shot 2018-02-27 at 13 14 21" src="https://user-images.githubusercontent.com/36510685/36898414-71b5ced4-1e23-11e8-9749-f60cdb107549.png">
@@ -187,7 +188,7 @@ Type the following command on the terminal to open Podfile in edit mode.
 
 	open -e Podfile ↵
 
-After opening the Podfile, you Podfile contents will look like Figure 7
+After opening the Podfile, you Podfile contents will look like Figure 7.
 
 ![screen shot 2018-02-21 at 11 00 17](https://user-images.githubusercontent.com/36510685/36898838-311de012-1e25-11e8-8292-5c92e198068e.png)
 
@@ -223,11 +224,11 @@ Figure 8. Orion360 SDK installation completed
 
 If you see message “Pod installation complete!”, you are ready to add our Orion360 SDK to your project and start to have fun :)
 
-Open project directory and you will see OrionImageViewer.xcworkspace added (see Figure 9)
+Open project directory and you will see OrionImageViewer.xcworkspace added (see Figure 9).
 
 ![screen shot 2018-02-21 at 11 21 07](https://user-images.githubusercontent.com/36510685/36898935-9af0bab4-1e25-11e8-8ebf-346cec8f4142.png)
 
-Figure 9. Project directory’s content after successful pod installation.
+Figure 9. Project directory’s content after successful pod installation
 
 ## Start new Xcode session
 
@@ -239,7 +240,7 @@ Close opened Xcode project and open `OrionImageViewer.xcworkspace`. From here on
 
 ![screen shot 2018-02-21 at 11 27 01](https://user-images.githubusercontent.com/36510685/36898955-af46f8e8-1e25-11e8-9392-c7c05cdc4154.png)
 
-Figure 10. OrionImageViewer.xcworkspace.
+Figure 10. OrionImageViewer.xcworkspace
 
 Notice: Whenever there will be a new update to the Orion360 SDK, go back to Step 2 and write pod update command and press Return key, and SDK will be updated right away.
 
@@ -261,19 +262,13 @@ The Orion360 SDK can be used for both Objective-C and swift project. For Objecti
 
 	Orion1View orion1View = \[\[Orion1View alloc\] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)\];  
 	orion1View.delegate = self;
-
   
-
 Note that the license file need to be given.
 
 	NSString\* path = \[\[NSBundle mainBundle\] pathForResource:@"license.key.lic" ofType:nil\];  
 	NSURL *licenseURL = \[NSURL fileURLWithPath:path\];
 
-  
-
-For Swift projects you need to create bridging header. Please follow Step 9. (For Objective-C projects, skip Step 9 and jump to Step 10 to learn how you can acquire Orion360 SDK)
-
-  
+For Swift projects you need to create bridging header. Please follow Step 9. (For Objective-C projects, skip Step 9 and jump to Step 10 to learn how you can acquire Orion360 SDK.)
 
 ## Objective-C bridging header for Swift projects
 
@@ -291,7 +286,7 @@ Figure 14. Create new Objective-C file for bridging header
 
 Give file name which is similar to your project name for this example "OrionImageView" and press Next, and save it in the same directory as your project.
 
-If you accept, Xcode creates the header file along with the file you were creating, and names it by your product module name followed by "-Bridging-Header.h". When you press Create you will see a dialog message (see Figure 15) and click on “Create Bridging Header”
+If you accept, Xcode creates the header file along with the file you were creating, and names it by your product module name followed by "-Bridging-Header.h". When you press Create you will see a dialog message (see Figure 15) and click on “Create Bridging Header”.
 
 ![screen shot 2018-02-21 at 12 23 12](https://user-images.githubusercontent.com/36510685/36899104-4bad682a-1e26-11e8-8d27-07f0701290bd.png)
 
@@ -327,17 +322,17 @@ To show 360° content you need a license file that must be added to your app pro
 Orion360 SDK is a commercial product and requires a license file to work. An evaluation license is provided with the sample app. You can get a watermarked evaluation license file also for your own bundle identifier by creating an account to [https://store.make360app.com](https://store.make360app.com/), starting a new SDK project, providing your own package name, and selecting FREE Trial.
 
 Please follow these steps to obtain License File:
-1.  Go to  [https://store.make360app.com](https://store.make360app.com/)
+1.  Go to  [https://store.make360app.com](https://store.make360app.com/).
     
 2.  Sign in if you have an existing account with us or Sign up if you are a new user.
     
-3.  After successful login click on New SKD Project button
+3.  After successful login click on New SKD Project button.
     
 
 ![screen shot 2018-02-21 at 12 45 40](https://user-images.githubusercontent.com/36510685/36899227-de93e2ea-1e26-11e8-9287-8e64bf32d8fa.png)
 
 
-4.  Give Project Name, and Package Identifier as they are written on Identity section
+4.  Give Project Name, and Package Identifier as they are written on Identity section.
     
 
 ![screen shot 2018-02-21 at 13 12 27](https://user-images.githubusercontent.com/36510685/36899299-1a912ef6-1e27-11e8-951b-deb8e4d127be.png)
@@ -351,21 +346,21 @@ Click on your project from Project Navigator > Select your target > choose Gener
 
 Figure 19. Bundle Identifier = Package Identifier, Display Name = Project Name
 
-5.  Select iOS on Platforms section
+5.  Select iOS on Platforms section.
     
 ![screen shot 2018-02-21 at 13 17 31](https://user-images.githubusercontent.com/36510685/36899320-32454bcc-1e27-11e8-819f-1e721777f884.png)
 
 Figure 20. Target platforms
 
-6.  Choose type of license, payment method
+6.  Choose type of license, payment method.
     
 ![screen shot 2018-02-21 at 13 18 33](https://user-images.githubusercontent.com/36510685/36899341-4938f1d0-1e27-11e8-9e68-ad08025de0c0.png)
 
 Figure 21. Payment method
 
-And click on Free Trial or Purchase
+And click on Free Trial or Purchase.
 
-7.  Read and agree to our terms and regulations
+7.  Read and agree to our terms and regulations.
     
 
 Click on Accept after reading Orion360 SDK Basic Evaluation End-User License Agreement (EULA)
@@ -374,13 +369,13 @@ Click on Accept after reading Orion360 SDK Basic Evaluation End-User License Agr
 
 Figure 22. Orion360 SDK’s EULA
 
-Once again click Accept to Terms & Conditions
+Once again click Accept to Terms & Conditions.
 
 ![screen shot 2018-02-21 at 13 21 59](https://user-images.githubusercontent.com/36510685/36899356-64a7e502-1e27-11e8-81e1-e876d8b1e129.png)
 
 Figure 23. Orion360 SDK’s Terms & Conditions
 
-After accepting both terms, you will get a notification which says “Your new licenses are ready to be downloaded. Scroll down to the Downloads section to get them.”
+After accepting both terms, you will get a notification which says “Your new licenses are ready to be downloaded. Scroll down to the Downloads section to get them”.
 
 ![screen shot 2018-02-21 at 13 24 11](https://user-images.githubusercontent.com/36510685/36899430-c97be4ec-1e27-11e8-85fb-02fbbb6054e7.png)
 
@@ -389,8 +384,7 @@ Figure 24. Downloads for extracted license
 Click on “Download iOS Basic Trial Licenses”.
 
 8.  Add the downloaded license to your project
-    
-
+   
 Extract the download file.  
 Select “Orion360\_SDK\_Basic\_iOS\_Trial_finwe.OrionImageViewer.lic“, drag the file and drop it inside Project navigator under your project folder and click Finish.
 
@@ -401,7 +395,6 @@ Figure 25. Adding license file (.lic) to project directory
 ![screen shot 2018-02-28 at 13 13 12](https://user-images.githubusercontent.com/36510685/36899577-60e5d112-1e28-11e8-858a-b7188b3dfc18.png)
 
 Figure 26. Project structure after license file added
-
   
 
 ## Let us start to have fun with coding
@@ -460,11 +453,9 @@ Swift
 	}
 
 Note: If you are using images/video from URL, make sure your sources are from HTTPS. Apple’s ATS Policy,  App Transport Security start blocking a cleartext HTTP (http://) resource load since it is insecure. Temporary exceptions can be configured via your app's Info.plist file.
+
 The above example displays image from URL, if you want to show an image from a local repository, add your image to Assets and initialize the photoUrl variable as follows: 
 
-Note:  If you are using images/video from URL, make sure your sources are from HTTPS. Apple’s ATS Policy, App Transport Security start blocking a cleartext HTTP (http://) resource load since it is insecure. Temporary exceptions can be configured via your app's Info.plist file.
-
-The above example displays image from URL, if you want to show an image from a local repository, add your image to Assets and initialize the photoUrl variable as follows:
 
 	//Photo from local repository  
 	let photoUrl = UIImage(named: "YourImageName.jpg")
@@ -494,11 +485,13 @@ Completed version of OrionImageViewer can be downloaded [here](https://github.co
 
 It is recommended to get familiar with the [wiki](https://github.com/FinweLtd/OrionSDK_iOS_Prd/wiki) pages and API documentation that is included in the SDK to learn more about the available features and how they should be used.
 
-To jump start your project, take a look at the delivered sample apps: Objective-C: [https://github.com/FinweLtd/Orion\_SDK\_iOS_SampleApps](https://github.com/FinweLtd/Orion_SDK_iOS_SampleApps) , Swift: https://github.com/FinweLtd/orion360-sdk-basic-examples-ios
+Take a look at the delivered sample apps to get more familier with our SDK. Sample projects are done using Objective-C and Swift. 
+	Objective-C: [https://github.com/FinweLtd/Orion\_SDK\_iOS_SampleApps](https://github.com/FinweLtd/Orion_SDK_iOS_SampleApps) , 
+	Swift: https://github.com/FinweLtd/orion360-sdk-basic-examples-ios
 
 Import the project to your workspace, build and run it on your device. Then look at the source code.
 
 ## Feedback & Support
 
 
-Feedback & support should be directed via email to support@finwe.fi
+Feedback & support should be directed via email to support@finwe.fi.
