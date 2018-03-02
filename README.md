@@ -497,3 +497,8 @@ It is recommended to get familiar with the [wiki](https://github.com/FinweLtd/Or
 To jump start your project, take a look at the delivered sample apps: Objective-C: [https://github.com/FinweLtd/Orion\_SDK\_iOS_SampleApps](https://github.com/FinweLtd/Orion_SDK_iOS_SampleApps) , Swift: https://github.com/FinweLtd/orion360-sdk-basic-examples-ios
 
 Import the project to your workspace, build and run it on your device. Then look at the source code.
+
+## Feedback & Support
+
+
+Feedback & support should be directed via email to support@finwe.fi
