@@ -2,8 +2,7 @@
 Repository for Orion360 SDK Basic for iOS, Hello
 
 # Examples for Orion360 SDK (Basic) for iOS
-**![](https://lh5.googleusercontent.com/M5eWUi908Ce5JW7jkXUdduMN44riSl-2dscMggx_o48AQ62h_2nYea22NAlcl82PcJeQ_q3GHJR0iSjr8Vvi_0j13vxvSK0Pr33qfKwogmN9muWZR2efC6wBLr9COaUUoxmMGIrp)**
-
+![3fda62e0-79e6-11e6-9f00-15bb10c29dd3](https://user-images.githubusercontent.com/36510685/36898354-379b03e0-1e23-11e8-8876-50a71b2043f5.png)
 This repository contains a simple 360° image viewer iOS application written in Swift.
 
 Features:
@@ -100,7 +99,7 @@ Note: Your machine might ask for your system password, type your password and pr
 You can read more about CocoaPods and installation guide on: [http://guides.cocoapods.org/using/getting-started.html#installation](http://guides.cocoapods.org/using/getting-started.html#installation)
 ## Getting started with Xcode and creating new project
 
-![](https://lh5.googleusercontent.com/tYMGkEVzmRRwHjXilPdEepW283bX_ViaEAkPZNIrpcRntMst5RCKTpom9v0wVneYqeJeBBotUudEbMZAI3ux11V612r9wr01BHWDtv7IOntPe-gOqryg5KAwmCiWM3zSdkKEoFTj)
+<img width="87" alt="screen shot 2018-02-27 at 13 14 21" src="https://user-images.githubusercontent.com/36510685/36898414-71b5ced4-1e23-11e8-9749-f60cdb107549.png">
 
 Figure 1. Xcode Developer Tool
 
@@ -110,19 +109,19 @@ If this is the first time you’ve launched Xcode, it may ask you to agree to th
 
 As soon as Xcode launches, the welcome window appears (See Figure 2).
 
-![](https://lh5.googleusercontent.com/ZFZ4U3lFDOcUA8BWDQCujZx8eX0XCsfxRPIF3kko7jhrcL4c9qy8aX9Uo_TAl2J7JKFDOfwQnC_0si5GdTPzBic6fAgMezzsNCWn-QYTQA95VQhzSouhd5ngfvRFq_p1tdb--uOr)
+<img width="450" alt="screen shot 2018-02-27 at 13 17 38" src="https://user-images.githubusercontent.com/36510685/36898486-bac2233e-1e23-11e8-8095-c2e3f15fa45d.png">
 
 Figure 2. Xcode’s Welcome window
 
 From the welcome window, click “Create a new Xcode project” (or choose File > New > Project). Xcode opens a new window (Figure 3) and displays a dialog in which you choose a template.
 
-![](https://lh5.googleusercontent.com/TOrIvzJDGs8qOUg_bhPsqCliUexAUqDrU0x3aTB7UKgj5F-DzWHvQ4GoyDDh077-mhG5cT9OZ2YA80umlniPcjx06OG3mZlRIequzcfOmg2qc4mWl2T9XZry92P_rbTN7_JOeSgB)
+<img width="715" alt="screen shot 2018-02-27 at 13 30 56" src="https://user-images.githubusercontent.com/36510685/36898520-d8e241aa-1e23-11e8-9658-fbb966506b4e.png">
 
 Figure 3. Xcode’s window for choosing template
 
 Select iOS from top of the dialog box and choose Single View App from Application section and then click Next to choose options for your project (Figure 4).
 
-![](https://lh5.googleusercontent.com/GC0fYEtTh3vFGPWzmf8TS5s_KEbGja2GSD_hsZPFcd04lfJWydK012x7pUfiwyDfxw4O69UtQFaHOtZATtIpwy6vVDwCh24vbGzHszE8W_IjaZ74VlSdebIBgN2TPohh5KRSyIwT)
+![screen shot 2018-02-27 at 13 35 21](https://user-images.githubusercontent.com/36510685/36898549-044c5128-1e24-11e8-9360-cb3b17c36dc8.png)
 
 Figure 4. Additional options for your project
 
