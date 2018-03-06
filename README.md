@@ -85,7 +85,7 @@ Note: If CocoaPods is already installed on your Mac you can skip this.
 
 To check if CocoaPods is already installed or not, Open terminal and type the following command and press Return key (↵).
 
-	pod install ↵
+	pod install 
 
 If CocoaPods is not installed, the following error log will be shown on terminal.
 
@@ -93,9 +93,9 @@ If CocoaPods is not installed, the following error log will be shown on terminal
 
 ### CocoaPods installation guide
 
-On terminal type, the following command and press Return key.
+On terminal type, the following command and press Return key (↵).
 
-	sudo gem install cocoapods ↵
+	sudo gem install cocoapods 
 
 Note: Your machine might ask for your system password, type your password and press Return key. (Tip: you will not be able to see what you are typing while entering your password, make sure you press Return key after you finish entering your password). If the correct password is given CocoaPods will start the process of installation.
 
