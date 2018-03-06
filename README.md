@@ -44,6 +44,8 @@ Table of Contents
 17. [Let us start to have fun with coding](#let-us-start-to-have-fun-with-coding)
 18. [Run OrionImageViewer](#run-orionimageviewer)
 19. [Next Steps](#next-steps)
+20. [Feedback and support](#feedback-and-support)
+
 
 
 
@@ -491,7 +493,7 @@ Swift: https://github.com/FinweLtd/orion360-sdk-basic-examples-ios
 
 Import the project to your workspace, build and run it on your device. Then look at the source code.
 
-## Feedback & Support
+## Feedback and Support
 
 
 Feedback & support should be directed via email to support@finwe.fi .
