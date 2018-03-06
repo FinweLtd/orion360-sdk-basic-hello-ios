@@ -168,15 +168,15 @@ As seen in Figure 5, CocoaPods is not yet added to our project. Step 2 of this d
 
 ## Getting started with Podfile
 
-Go to terminal and navigate to project directory (OrionImageViewer). You can navigate using two ways. Either by navigating to project directory using cd \[type directory name\] or simply type cd and drag & drop your project directory on terminal and terminal will insert directory path for you, then press Return key.
+Go to terminal and navigate to project directory (OrionImageViewer). You can navigate using two ways. Either by navigating to project directory using cd \[type directory name\] or simply type cd and drag & drop your project directory on terminal and terminal will insert directory path for you, then press Return key (↵).
 
-	cd <drag and drop your project folder> ↵
+	cd <drag and drop your project folder> 
 
 ## Create Podfile
 
-Type pod init and press Return key to create empty pod file for your project directory. Podfile is what you use to specify all the required libraries for your project.
+Type pod init and press Return key to create empty pod file for your project directory. Podfile is what you use to specify all the required libraries for your project. Type pod init command and press Return key (↵).
 
-	pod init ↵
+	pod init 
 
 After running pod init Podfile is added to your project directory.
 
@@ -186,9 +186,9 @@ Figure 6. OrionImageViewer’s directory after pod init
 
 ## Open Podfile in edit mode
 
-Type the following command on the terminal to open Podfile in edit mode.
+Type the following command on the terminal and press Return key (↵) to open Podfile in edit mode.
 
-	open -e Podfile ↵
+	open -e Podfile 
 
 After opening the Podfile, you Podfile contents will look like Figure 7.
 
@@ -216,7 +216,7 @@ Edit the Podfile content as follows to Install Orion360 SDK Basic for iOS:
 
 After saving the updates you made on Podfile, go to terminal and type the following command and press Return key (↵)
 
-	pod install ↵
+	pod install 
 
 After few minutes you will see a log something like Figure 8 on your terminal.
 
@@ -246,7 +246,7 @@ Figure 10. OrionImageViewer.xcworkspace
 
 Notice: Whenever there will be a new update to the Orion360 SDK, go back to Step 2 and write pod update command and press Return key, and SDK will be updated right away.
 
-	pod update ↵
+	pod update 
 
 ## Working on OrionImageViewer xcworkspace
 
