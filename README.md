@@ -143,7 +143,7 @@ In the dialog that appears (Figure 4), use the following values to name your app
     
 -   Bundle Identifier:  This value is automatically generated based on your product name and organization identifier.
     
--   Language:  Swift or Objective-C, depending on your preference. For this example, we are using Swift
+-   Language:  Swift or Objective-C, depending on your preference. For this example, we are using Swift.
     
 -   Devices: Universal
     
