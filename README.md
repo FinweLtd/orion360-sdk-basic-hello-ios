@@ -244,7 +244,7 @@ Close opened Xcode project and open `OrionImageViewer.xcworkspace`. From here on
 
 Figure 10. OrionImageViewer.xcworkspace
 
-Notice: Whenever there will be a new update to the Orion360 SDK, go back to Step 2 and write pod update command and press Return key, and SDK will be updated right away.
+Notice: Whenever there will be a new update to the Orion360 SDK Pro, go back to [Getting started with Podfile](#getting-started-with-podfile) step and write pod update command instead of pod install and press Return key, and SDK will be updated right away.
 
 	pod update 
 
@@ -274,7 +274,7 @@ Note that the license file need to be given.
     NSString* path = [[NSBundle mainBundle] pathForResource:@"license.key.lic" ofType:nil];
     NSURL *licenseUrl = [NSURL fileURLWithPath:path];
 
-For Swift projects you need to create bridging header. Please follow Step 9. (For Objective-C projects, skip Step 9 and jump to Step 10 to learn how you can acquire Orion360 SDK Basic license file.)
+For Swift projects you need to create bridging header. Please follow Step 9. (For Objective-C projects, skip Objective-C bridging step and jump to [Obtaining License File](#obtaining-license-file) to learn how you can acquire Orion360 SDK Pro license file.)
 
 ## Objective-C bridging header for Swift projects
 
