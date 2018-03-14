@@ -270,7 +270,7 @@ Note that the license file need to be given.
 	NSString\* path = \[\[NSBundle mainBundle\] pathForResource:@"license.key.lic" ofType:nil\];  
 	NSURL *licenseURL = \[NSURL fileURLWithPath:path\];
 
-For Swift projects you need to create bridging header. Please follow Step 9. (For Objective-C projects, skip Step 9 and jump to Step 10 to learn how you can acquire Orion360 SDK.)
+For Swift projects you need to create bridging header. Please follow Step 9. (For Objective-C projects, skip Step 9 and jump to Step 10 to learn how you can acquire Orion360 SDK Basic license file.)
 
 ## Objective-C bridging header for Swift projects
 
@@ -321,7 +321,7 @@ And license file is given as follows:
 
 To show 360° content you need a license file that must be added to your app project's resources without any modification. Failure to do so will result to black video player screen and currently, it doesn't produce any warning messages.
 
-Orion360 SDK is a commercial product and requires a license file to work. An evaluation license is provided with the sample app. You can get a watermarked evaluation license file also for your own bundle identifier by creating an account to [https://store.make360app.com](https://store.make360app.com/), starting a new SDK project, providing your own package name, and selecting FREE Trial.
+Orion360 SDK Basic is a commercial product and requires a license file to work. An evaluation license is provided with the sample app. You can get a watermarked evaluation license file also for your own bundle identifier by creating an account to [https://store.make360app.com](https://store.make360app.com/), starting a new SDK project, providing your own package name, and selecting FREE Trial.
 
 Please follow these steps to obtain License File:
 1.  Go to  [https://store.make360app.com](https://store.make360app.com/).
@@ -373,7 +373,7 @@ Figure 22. Orion360 SDK’s EULA
 
 Once again click Accept to Terms & Conditions.
 
-![screen shot 2018-02-21 at 13 21 59](https://user-images.githubusercontent.com/36510685/36899356-64a7e502-1e27-11e8-81e1-e876d8b1e129.png)
+![screen shot 2018-02-21 at 13 23 11](https://user-images.githubusercontent.com/36510685/36899405-a8fe6d84-1e27-11e8-8f36-fa0cb68e0b4e.png)
 
 Figure 23. Orion360 SDK’s Terms & Conditions
 
