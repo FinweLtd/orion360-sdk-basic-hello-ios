@@ -262,13 +262,17 @@ Figure 12. Sequence diagram:Orion1View
 
 The Orion360 SDK can be used for both Objective-C and swift project. For Objective-C project you simply import Orion1View (#import <Orion1View.h>) header and initialize it as follows:
 
-	Orion1View orion1View = \[\[Orion1View alloc\] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)\];  
-	orion1View.delegate = self;
+	@property (nonatomic) Orion1View* orionView;
+	
+	_orionView = [[Orion1View alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
+    _orionView.delegate = self;
+ 
   
 Note that the license file need to be given.
 
-	NSString\* path = \[\[NSBundle mainBundle\] pathForResource:@"license.key.lic" ofType:nil\];  
-	NSURL *licenseURL = \[NSURL fileURLWithPath:path\];
+	  // License url
+    NSString* path = [[NSBundle mainBundle] pathForResource:@"license.key.lic" ofType:nil];
+    NSURL *licenseUrl = [NSURL fileURLWithPath:path];
 
 For Swift projects you need to create bridging header. Please follow Step 9. (For Objective-C projects, skip Step 9 and jump to Step 10 to learn how you can acquire Orion360 SDK Basic license file.)
 
@@ -383,7 +387,7 @@ After accepting both terms, you will get a notification which says “Your new l
 
 Figure 24. Downloads for extracted license
 
-Click on “Download iOS Basic Trial Licenses”.
+Click on “Download iOS Basic Trial License”.
 
 8.  Add the downloaded license to your project
    
