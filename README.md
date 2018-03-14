@@ -491,7 +491,7 @@ Take a look at the delivered sample apps to get more familier with our SDK. Samp
 Objective-C: [https://github.com/FinweLtd/Orion\_SDK\_iOS_SampleApps](https://github.com/FinweLtd/Orion_SDK_iOS_SampleApps), 
 Swift: https://github.com/FinweLtd/orion360-sdk-basic-examples-ios
 
-Clone the projects, create Pod file (pod init) and follow the steps mentioned here [Getting started with Podfile](#getting-started-with-podfile)). 
+Clone the projects and follow steps mentioned on [Getting started with Podfile](#getting-started-with-podfile). 
 
 Open .xcworkspace, build and run and project. Then look at the source code.
 
