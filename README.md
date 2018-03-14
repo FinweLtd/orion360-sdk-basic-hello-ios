@@ -1,7 +1,7 @@
 # orion360-sdk-basic-hello-ios
 Repository for Orion360 SDK Basic for iOS, Hello
 
-# Examples for Orion360 SDK (Basic) for iOS
+# Beginner's Guide to Orion360 SDK (Basic) for iOS
 ![3fda62e0-79e6-11e6-9f00-15bb10c29dd3](https://user-images.githubusercontent.com/36510685/36898354-379b03e0-1e23-11e8-8876-50a71b2043f5.png)
 
 This repository contains a simple 360° image viewer iOS application written in Swift.
@@ -491,7 +491,7 @@ Take a look at the delivered sample apps to get more familier with our SDK. Samp
 Objective-C: [https://github.com/FinweLtd/Orion\_SDK\_iOS_SampleApps](https://github.com/FinweLtd/Orion_SDK_iOS_SampleApps), 
 Swift: https://github.com/FinweLtd/orion360-sdk-basic-examples-ios
 
-Import the project to your workspace, build and run it on your device. Then look at the source code.
+Clone the projects, create Pod file (pod init), edit Pod file providing source url and pod 'OrionSDK', open .xcworkspace, build and run it on your device follow the steps mentioned on (Getting started with Podfile](#getting-started-with-podfile)). Then look at the source code.
 
 ## Feedback and Support
 
